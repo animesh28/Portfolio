@@ -1,0 +1,347 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-style: "Rubik", serif;
+	color: #ffffff;
+}
+/*Navbar*/
+nav{
+	border-bottom: 2px solid grey;
+	z-index: 100;	
+}
+#navbarNav{
+	font-size: 1.4em;
+}
+.nav-item{
+	margin-right: 30px;
+}
+#nav-links:hover{
+	transition: all .3s ease-out 0s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    color: #eb5b52;
+}
+#hire_me
+{
+	padding: 15px 40px 15px 40px;
+}
+/* End of Header*/
+/*Cover*/
+#cover{
+	background-image:url('images/cover_bg.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 90px;
+	padding-right: 25px;
+	z-index: 1;
+	height: 100vh;
+}
+/*About H1*/
+.content h1{
+	font-family: 'Prompt', sans-serif;
+	float: right;
+	clear: both;
+	z-index: 2;
+	margin: 0px;
+	color:#ffffff;
+}
+/*Content*/
+.content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*GET EVERY SINGLE SOLUTION*/
+.solution{
+	color: #dc3545;
+	margin-top: 50px;
+	margin-bottom: 8px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+}
+.solution i{
+	vertical-align: middle;
+}
+div.name{
+	margin-bottom: 8px;
+}
+/*Code icon*/
+span.description i{
+	vertical-align: text-top;
+}
+/*Description Content*/
+span.description{
+	color: #d2d4d4;
+	font-style: italic;
+	font-size:1.3em;
+	font-style: 'Rubik', sans-serif; 
+}
+#cover h1{
+		font-size: 2.5em;
+	}
+/*End of Cover*/
+div.descrip2{
+	background-color: #121212; 
+	height: 100vh;
+}
+.descrip2 div.row{
+	padding-top: 30vh;
+	text-align: center;
+    display: flex;
+}
+.content2 h1{
+	font-family: 'Prompt', sans-serif;
+	font-weight: 700;
+}
+
+@media (min-width: 0px) and (max-width: 576px) and (orientation: landscape){
+	.solution{
+		font-size: 0.5em;
+		margin-top: 1vh;
+		margin-bottom: 5px;
+	}
+	.solution i{
+		font-size: 5px;
+	}
+	#cover h1{
+		font-size: 0.8em;
+	}
+	div.name{
+		margin-bottom: 2px;
+	}
+	span.description i{
+		font-size: 4px;
+	}
+	span.description{
+		font-size: 0.55em;
+	}
+	div.content{
+		padding-left:50vh;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 399px) and (orientation: portrait){
+	.solution{
+		font-size: 0.5em;
+		margin-top: 5vh;
+		margin-bottom: 5px;
+	}
+	.solution i{
+		font-size: 5px;
+	}
+	#cover h1{
+		font-size: 0.8em;
+	}
+	div.name{
+		margin-bottom: 2px;
+	}
+	span.description i{
+		font-size: 4px;
+	}
+	span.description{
+		font-size: 0.55em;
+	}
+	div.content{
+		padding-left:10vh;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 576px) and (orientation: portrait){
+	.solution{
+		font-size: 0.7em;
+		margin-top: 7vh;
+		margin-bottom: 7px;
+	}
+	.solution i{
+		font-size: 5px;
+	}
+	#cover h1{
+		font-size: 1em;
+	}
+	div.name{
+		margin-bottom: 7px;
+	}
+	span.description i{
+		font-size: 4px;
+	}
+	span.description{
+		font-size: 0.7em;
+	}
+	div.content{
+		padding-left: 11vh;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) and (orientation: portrait){
+	.solution{
+		font-size: 1em;
+		margin-top: 10px;
+		margin-bottom: 7px;
+	}
+	.solution i{
+		font-size: 10px;
+	}
+	#cover h1{
+		font-size: 1.4em;
+	}
+	div.name{
+		margin-bottom: 7px;
+	}
+	span.description i{
+		font-size: 8px;
+	}
+	span.description{
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) and (orientation: landscape){
+	.solution{
+		font-size: 0.8em;
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+	.solution i{
+		font-size: 10px;
+	}
+	#cover h1{
+		font-size: 1.15em;
+	}
+	div.name{
+		margin-bottom: 3px;
+	}
+	span.description i{
+		font-size: 8px;
+	}
+	span.description{
+		font-size: 0.7em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait){
+	
+	.solution{
+		font-size: 1.2em;
+		margin-top: 20vh;
+		margin-bottom: 10px;
+	}
+	.solution i{		
+		font-size: 15px;
+	}
+	#cover h1{
+		font-size: 1.9em;
+	}
+	span.description i{
+		font-size: 10px;
+	}
+	span.description{
+		font-size: 1.09em;
+	}
+	div.content{
+		padding-left: 12vh;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape){
+	
+	.solution{
+		font-size: 1em;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.solution i{		
+		font-size: 15px;
+	}
+	#cover h1{
+		font-size: 1.5em;
+	}
+	span.description i{
+		font-size: 7px;
+	}
+	span.description{
+		font-size: 0.7em;
+	}
+	div.name{
+		margin-bottom: 10px;
+	}
+	div.content{
+		padding-left: 25vh;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) and (orientation: portrait){
+	.solution{
+		font-size: 1.2em;
+		margin-top: 20vh;
+		margin-bottom: 10px;
+	}
+	.solution i{
+		font-size: 15px;
+	}
+	#cover h1{
+		font-size: 2.3em;
+	}
+	span.description i{
+		font-size: 10px;
+	}
+	span.description{
+		font-size:1.6em;
+	}
+	div.content{
+		padding-left: 13vh;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape){
+	.solution{
+		font-size: 1.2em;
+		margin-top: 5vh;
+		margin-bottom: 10px;
+	}
+	.solution i{
+		font-size: 15px;
+	}
+	#cover h1{
+		font-size: 2em;
+	}
+	span.description i{
+		font-size: 10px;
+	}
+	span.description{
+		font-size:1.3em;
+	}
+	div.content{
+		padding-left: 30vh;
+
+	}
+}
+
+@media (min-width: 1200px) and (orientation: landscape){
+	.solution{
+		font-size: 1.5em;
+		padding-top: 2vh;
+	}
+	.solution i{
+		font-size: 15px;
+	}
+	#cover h1{
+		font-size: 2.5em;
+	}
+	span.description i{
+		font-size: 10px;
+	}
+	span.description{
+		font-size:1.5em;
+	}
+	.content2 h1{
+		font-size: 3.5em;
+	}
+}

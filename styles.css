@@ -30,6 +30,9 @@ nav{
 {
 	padding: 15px 40px 15px 40px;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* End of Header*/
 /*Cover*/
 #cover{
@@ -137,6 +140,9 @@ div.year{
 		padding-top:5.5vh;
 		padding-left: 2vh;
 }
+hr{
+	width: 80%;
+}
 div.services{
 	background-color: #0b0b0b;
 }
@@ -178,13 +184,27 @@ div.about{
 	margin-top: 6vh;
 	margin-bottom: 3vh;
 }
-#mail_id{
-	text-decoration: none;
-	color: #dc3545;
-}
 .potrait img{
 	height:50vh;
 	padding-right: 5vh;
+}
+div.contact{
+	background-color: #0b0b0b;
+	padding-bottom: 6vh;
+}
+.contact {
+	font-family: 'Arbutus Slab', serif;
+	font-size: 1.2em;
+}
+.contact h1{
+	padding-top: 10vh;
+	padding-bottom: 5vh;
+	font-family: 'Prompt', sans-serif;
+	font-size: 3em;
+	font-weight: 600;
+}
+footer{
+	background-color: #121212;
 }
 @media (min-width: 0px) and (max-width: 576px) and (orientation: landscape){
 	.solution{
@@ -315,7 +335,7 @@ div.about{
 		font-size: 0.7em;
 	}
 	div.content{
-		padding-left: 11vh;
+		padding-left: 13vh;
 	}
 	.descrip2 div.row{
 		padding-top: 5vh; 		
@@ -346,7 +366,7 @@ div.about{
 		padding-left: 1vh;
 	}
 	div.descrip2{
-		height: 65vh;
+		height: 70vh;
 	}
 }
 
@@ -405,6 +425,7 @@ div.about{
 	div.descrip2{
 		height: 45vh;
 	}
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) and (orientation: landscape){
@@ -456,6 +477,9 @@ div.about{
 		font-size:1.2em;
 		padding-top:10vh;
 		padding-left: 2vh;
+	}
+	hr{
+		width: 50%;
 	}
 }
 
@@ -540,7 +564,7 @@ div.about{
 		margin-bottom: 10px;
 	}
 	div.content{
-		padding-left: 25vh;
+		padding-left: 25	vh;
 	}
 	.descrip2 div.row{
 		padding-top: 10vh; 		
@@ -549,10 +573,11 @@ div.about{
 		font-size: 2.5em;
 		display: flex;
 		align-items: center;
-		padding-left: 6vh;
+		padding-left: 50vh;
 	}
 	.content2 a{
 		align-items: center;
+		padding-left: 50vh;
 	}
 	.content2 span:nth-of-type(1){
 		font-size: 1.2em; 
@@ -560,7 +585,7 @@ div.about{
 	div.year{
 		display: flex;
 		align-items: center;
-		padding-left: 55vh;
+		padding-left: 40vh;
 	}
 	.year span:nth-of-type(1){
 		font-size: 5em;
@@ -570,6 +595,9 @@ div.about{
 		font-size:1.2em;
 		padding-top:10vh;
 		padding-left: 2vh;
+	}
+	hr{
+		width: 40%;
 	}
 }
 
@@ -684,6 +712,9 @@ div.about{
 	div.descrip2{
 		height: 50vh;
 	}
+	hr{
+		width: 40%;
+	}
 }
 
 @media (min-width: 1200px) and (orientation: landscape){
@@ -724,5 +755,8 @@ div.about{
 		font-size:2em;
 		padding-top:5.5vh;
 		padding-left: 2vh;
+	}
+	hr{
+		width: 40%;
 	}
 }

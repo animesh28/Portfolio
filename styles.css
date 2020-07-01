@@ -189,7 +189,7 @@ div.year{
 	}
 }
 
-@media (min-width: 0px) and (max-width: 399px) and (orientation: portrait){
+@media (min-width: 0px) and (max-width: 370px) and (orientation: portrait){
 	.solution{
 		font-size: 0.5em;
 		margin-top: 5vh;
@@ -242,7 +242,7 @@ div.year{
 	}
 }
 
-@media (min-width: 400px) and (max-width: 576px) and (orientation: portrait){
+@media (min-width: 371px) and (max-width: 576px) and (orientation: portrait){
 	.solution{
 		font-size: 0.7em;
 		margin-top: 7vh;

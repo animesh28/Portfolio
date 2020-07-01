@@ -101,6 +101,7 @@ div.descrip2{
 .content2 h1{
 	font-family: 'Prompt', sans-serif;
 	font-weight: 700;
+	margin-bottom: 2vh;
 }
 .content2 a{
 	text-decoration: none;
@@ -118,8 +119,10 @@ div.descrip2{
 .content2 span:nth-of-type(2){
 	font-family: 'Prompt', sans-serif;
 }
-.content2 span:nth-of-type(1){
-		font-size: 1.5em;
+#creativity{
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 2vh;
 }
 div.year{
 		display: flex;
@@ -134,7 +137,55 @@ div.year{
 		padding-top:5.5vh;
 		padding-left: 2vh;
 }
-
+div.services{
+	background-color: #0b0b0b;
+}
+.services h1{
+	padding-top: 15vh;
+	padding-bottom: 15vh;
+	font-family: 'Prompt', sans-serif;
+	font-size: 3em;
+	font-weight: 600;
+}
+.services p{
+	font-family: 'Arbutus Slab', serif;
+	font-size: 1.2em;
+}
+.services div.col-md-4{
+	margin-bottom: 10vh;
+}
+.services h2{
+	margin-bottom: 3vh;
+}
+div.about{
+	background-color: #121212;
+}
+.about h1{
+	padding-top: 10vh;
+	padding-bottom: 5vh;
+	font-family: 'Prompt', sans-serif;
+	font-size: 3em;
+	font-weight: 600;
+}
+.about p{
+	font-family: 'Arbutus Slab', serif;
+	font-size: 1.2em;
+}
+.about div.col-md-4{
+	margin-bottom: 10vh;
+}
+.about h2{
+	margin-top: 6vh;
+	margin-bottom: 3vh;
+}
+#mail_id{
+	text-decoration: none;
+	color: #dc3545;
+}
+.potrait img{
+	height:50vh;
+	padding-right: 5vh;
+}
 @media (min-width: 0px) and (max-width: 576px) and (orientation: landscape){
 	.solution{
 		font-size: 0.5em;
@@ -214,7 +265,7 @@ div.year{
 		padding-left:10vh;
 	}
 	.descrip2 div.row{
-		padding-top: 10vh; 		
+		padding-top: 12vh; 		
 	}
 	.content2 h1{
 		font-size: 2.5em;
@@ -266,8 +317,8 @@ div.year{
 	div.content{
 		padding-left: 11vh;
 	}
-		.descrip2 div.row{
-		padding-top: 10vh; 		
+	.descrip2 div.row{
+		padding-top: 5vh; 		
 	}
 	.content2 h1{
 		font-size: 2.5em;
@@ -283,6 +334,7 @@ div.year{
 	div.year{
 		display: flex;
 		align-items: center;
+		padding-left: 5vh;
 	}
 	.year span:nth-of-type(1){
 		font-size: 5em;
@@ -291,7 +343,10 @@ div.year{
 	.year p{
 		font-size:1.2em;
 		padding-top:3vh;
-		padding-left: 2vh;
+		padding-left: 1vh;
+	}
+	div.descrip2{
+		height: 65vh;
 	}
 }
 
@@ -652,13 +707,14 @@ div.year{
 		font-size: 3.5em;
 	}
 	.content2 span:nth-of-type(1){
-		padding-left: 10vh;
+		padding-left: 4vh;
 		padding-top: 1.5vh;
 		font-size: 1.5em;
 	}
 	div.year{
 		display: flex;
 		align-items: center;
+		padding-left: 15vh;
 	}
 	.year span:nth-of-type(1){
 		font-size: 7em;

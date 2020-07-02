@@ -3,6 +3,9 @@
 	padding: 0px;
 	margin: 0px;
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
 	font-style: "Rubik", serif;
 	color: #ffffff;
@@ -28,9 +31,6 @@ nav{
 #hire_me
 {
 	padding: 15px 40px 15px 40px;
-}
-html {
-  scroll-behavior: smooth;
 }
 /* End of Header*/
 /*Cover*/
@@ -87,8 +87,8 @@ span.description{
 	font-style: 'Rubik', sans-serif; 
 }
 #cover h1{
-		font-size: 2.5em;
-	}
+	font-size: 2.5em;
+}
 /*End of Cover*/
 div.descrip2{
 	background-color: #121212; 
@@ -127,17 +127,17 @@ div.descrip2{
 	padding-top: 2vh;
 }
 div.year{
-		display: flex;
-		align-items: center;
+	display: flex;
+	align-items: center;
 }
 .year span:nth-of-type(1){
-		font-size: 7em;
-		font-weight: 700;
+	font-size: 7em;
+	font-weight: 700;
 }
 .year p{
-		font-size:2em;
-		padding-top:5.5vh;
-		padding-left: 2vh;
+	font-size:2em;
+	padding-top:5.5vh;
+	padding-left: 2vh;
 }
 hr{
 	width: 80%;
@@ -217,6 +217,13 @@ footer{
 	font-weight: 600;
 	margin-bottom: 3vh;
 }
+span.social_media{
+	color: #6c757d ;
+}
+.social_media a{
+	text-decoration: none;
+	color: #6c757d ;
+}
 @media (min-width: 0px) and (max-width: 576px) and (orientation: landscape){
 	.solution{
 		font-size: 0.5em;
@@ -269,6 +276,7 @@ footer{
 		padding-top:10vh;
 		padding-left: 2vh;
 	}
+
 }
 
 

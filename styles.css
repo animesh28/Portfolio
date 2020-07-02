@@ -9,7 +9,6 @@ body{
 }
 /*Navbar*/
 nav{
-	border-bottom: 2px solid grey;
 	z-index: 100;	
 }
 #navbarNav{
@@ -93,10 +92,10 @@ span.description{
 /*End of Cover*/
 div.descrip2{
 	background-color: #121212; 
-	height: 100vh;
 }
 .descrip2 div.row{
-	padding-top: 40vh;
+	padding-top: 20vh;
+	padding-bottom: 15vh;
 	text-align: center;
     display: flex;
     margin: 0px;
@@ -189,7 +188,7 @@ div.about{
 	padding-right: 5vh;
 }
 div.contact{
-	background-color: #0b0b0b;
+	background-color: #121212;
 	padding-bottom: 6vh;
 }
 .contact {
@@ -203,8 +202,20 @@ div.contact{
 	font-size: 3em;
 	font-weight: 600;
 }
+p.card-text{
+	color: black;
+	font-family: 'Prompt', serif;
+}
 footer{
-	background-color: #121212;
+	background-color: #0b0b0b;
+}
+.album h1{
+	padding-top: 10vh;
+	padding-bottom: 5vh;
+	font-family: 'Prompt', sans-serif;
+	font-size: 3.5em;
+	font-weight: 600;
+	margin-bottom: 3vh;
 }
 @media (min-width: 0px) and (max-width: 576px) and (orientation: landscape){
 	.solution{
@@ -230,7 +241,7 @@ footer{
 	div.content{
 		padding-left:50vh;
 	}
-			.descrip2 div.row{
+	.descrip2 div.row{
 		padding-top: 10vh; 		
 	}
 	.content2 h1{
@@ -259,6 +270,7 @@ footer{
 		padding-left: 2vh;
 	}
 }
+
 
 @media (min-width: 0px) and (max-width: 370px) and (orientation: portrait){
 	.solution{
@@ -365,9 +377,6 @@ footer{
 		padding-top:3vh;
 		padding-left: 1vh;
 	}
-	div.descrip2{
-		height: 70vh;
-	}
 }
 
 @media (min-width: 576px) and (max-width: 767px) and (orientation: portrait){
@@ -421,9 +430,6 @@ footer{
 		font-size:1.2em;
 		padding-top:3vh;
 		padding-left: 2vh;
-	}
-	div.descrip2{
-		height: 45vh;
 	}
 
 }
@@ -536,9 +542,6 @@ footer{
 		padding-top:3vh;
 		padding-left: 2vh;
 	}
-	div.descrip2{
-		height: 45vh;
-	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) and (orientation: landscape){
@@ -564,7 +567,7 @@ footer{
 		margin-bottom: 10px;
 	}
 	div.content{
-		padding-left: 25	vh;
+		padding-left: 30vh;
 	}
 	.descrip2 div.row{
 		padding-top: 10vh; 		
@@ -577,7 +580,7 @@ footer{
 	}
 	.content2 a{
 		align-items: center;
-		padding-left: 50vh;
+		padding-left: 49vh;
 	}
 	.content2 span:nth-of-type(1){
 		font-size: 1.2em; 
@@ -585,7 +588,7 @@ footer{
 	div.year{
 		display: flex;
 		align-items: center;
-		padding-left: 40vh;
+		padding-left: 55vh;
 	}
 	.year span:nth-of-type(1){
 		font-size: 5em;
@@ -653,9 +656,6 @@ footer{
 		padding-top:3vh;
 		padding-left: 2vh;
 	}
-	div.descrip2{
-		height: 45vh;
-	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape){
@@ -708,9 +708,6 @@ footer{
 		font-size:1.2em;
 		padding-top:5vh;
 		padding-left: 2vh;
-	}
-	div.descrip2{
-		height: 50vh;
 	}
 	hr{
 		width: 40%;

@@ -230,9 +230,6 @@ span.social_media{
 		margin-top: 1vh;
 		margin-bottom: 5px;
 	}
-	.solution i{
-		font-size: 5px;
-	}
 	#cover h1{
 		font-size: 0.8em;
 	}
@@ -286,9 +283,6 @@ span.social_media{
 		margin-top: 5vh;
 		margin-bottom: 5px;
 	}
-	.solution i{
-		font-size: 5px;
-	}
 	#cover h1{
 		font-size: 0.8em;
 	}
@@ -338,9 +332,6 @@ span.social_media{
 		font-size: 0.7em;
 		margin-top: 7vh;
 		margin-bottom: 7px;
-	}
-	.solution i{
-		font-size: 5px;
 	}
 	#cover h1{
 		font-size: 1em;
@@ -393,9 +384,6 @@ span.social_media{
 		margin-top: 13vh;
 		margin-bottom: 7px;
 	}
-	.solution i{
-		font-size: 10px;
-	}
 	#cover h1{
 		font-size: 1.8em;
 	}
@@ -447,9 +435,6 @@ span.social_media{
 		font-size: 0.8em;
 		margin-top: 3px;
 		margin-bottom: 3px;
-	}
-	.solution i{
-		font-size: 10px;
 	}
 	#cover h1{
 		font-size: 1.15em;
@@ -504,9 +489,6 @@ span.social_media{
 		margin-top: 20vh;
 		margin-bottom: 10px;
 	}
-	.solution i{		
-		font-size: 15px;
-	}
 	#cover h1{
 		font-size: 1.9em;
 	}
@@ -559,9 +541,6 @@ span.social_media{
 		margin-top: 0;
 		margin-bottom: 10px;
 	}
-	.solution i{		
-		font-size: 15px;
-	}
 	#cover h1{
 		font-size: 1.5em;
 	}
@@ -584,11 +563,11 @@ span.social_media{
 		font-size: 2.5em;
 		display: flex;
 		align-items: center;
-		padding-left: 50vh;
+		padding-left: 20vh;	
 	}
 	.content2 a{
 		align-items: center;
-		padding-left: 49vh;
+		padding-left: 10vh;
 	}
 	.content2 span:nth-of-type(1){
 		font-size: 1.2em; 
@@ -596,7 +575,7 @@ span.social_media{
 	div.year{
 		display: flex;
 		align-items: center;
-		padding-left: 55vh;
+		padding-left: 65vh;
 	}
 	.year span:nth-of-type(1){
 		font-size: 5em;
@@ -617,9 +596,6 @@ span.social_media{
 		font-size: 1.2em;
 		margin-top: 20vh;
 		margin-bottom: 10px;
-	}
-	.solution i{
-		font-size: 15px;
 	}
 	#cover h1{
 		font-size: 2.3em;
@@ -672,9 +648,6 @@ span.social_media{
 		margin-top: 5vh;
 		margin-bottom: 10px;
 	}
-	.solution i{
-		font-size: 15px;
-	}
 	#cover h1{
 		font-size: 2em;
 	}
@@ -726,9 +699,6 @@ span.social_media{
 	.solution{
 		font-size: 1.5em;
 		padding-top: 2vh;
-	}
-	.solution i{
-		font-size: 15px;
 	}
 	#cover h1{
 		font-size: 2.5em;

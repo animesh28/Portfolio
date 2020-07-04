@@ -28,6 +28,7 @@ nav{
     transition-delay: 0s;
     color: #dc3545;
 }
+/*Button*/
 #hire_me
 {
 	padding: 15px 40px 15px 40px;
@@ -69,13 +70,15 @@ nav{
 	font-family: 'Rubik', sans-serif;
 	font-weight: bold;
 }
+/*Code icon*/
 .solution i{
 	vertical-align: middle;
 }
+/*Name*/
 div.name{
 	margin-bottom: 8px;
 }
-/*Code icon*/
+/*Quote icon*/
 span.description i{
 	vertical-align: text-top;
 }
@@ -90,6 +93,7 @@ span.description{
 	font-size: 2.5em;
 }
 /*End of Cover*/
+/*User Experience*/
 div.descrip2{
 	background-color: #121212; 
 }
@@ -142,6 +146,7 @@ div.year{
 hr{
 	width: 80%;
 }
+/*Services*/
 div.services{
 	background-color: #0b0b0b;
 }
@@ -162,6 +167,7 @@ div.services{
 .services h2{
 	margin-bottom: 3vh;
 }
+/*About*/
 div.about{
 	background-color: #121212;
 }
@@ -187,6 +193,7 @@ div.about{
 	height:50vh;
 	padding-right: 5vh;
 }
+/*Contact*/
 div.contact{
 	background-color: #121212;
 	padding-bottom: 6vh;
@@ -206,9 +213,6 @@ p.card-text{
 	color: black;
 	font-family: 'Prompt', serif;
 }
-footer{
-	background-color: #0b0b0b;
-}
 .album h1{
 	padding-top: 10vh;
 	padding-bottom: 5vh;
@@ -216,6 +220,10 @@ footer{
 	font-size: 3.5em;
 	font-weight: 600;
 	margin-bottom: 3vh;
+}
+/*Footer*/
+footer{
+	background-color: #0b0b0b;
 }
 span.social_media{
 	color: #6c757d ;
@@ -276,8 +284,7 @@ span.social_media{
 
 }
 
-
-@media (min-width: 0px) and (max-width: 370px) and (orientation: portrait){
+@media (min-width: 0px) and (max-width: 320px) and (orientation: portrait){
 	.solution{
 		font-size: 0.5em;
 		margin-top: 5vh;
@@ -327,6 +334,55 @@ span.social_media{
 	}
 }
 
+@media (min-width: 321px) and (max-width: 370px) and (orientation: portrait){
+	.solution{
+		font-size: 0.7em;
+		margin-top: 7vh;
+		margin-bottom: 5px;
+	}
+	#cover h1{
+		font-size: 0.8em;
+	}
+	div.name{
+		margin-bottom: 2px;
+	}
+	span.description i{
+		font-size: 4px;
+	}
+	span.description{
+		font-size: 0.7em;
+	}
+	div.content{
+		padding-left:10vh;
+	}
+	.descrip2 div.row{
+		padding-top: 12vh; 		
+	}
+	.content2 h1{
+		font-size: 2.5em;
+		display: flex;
+		align-items: center;
+	}
+	.content2 a{
+		align-items: center;
+	}
+	.content2 span:nth-of-type(1){
+		font-size: 1.2em; 
+	}
+	div.year{
+		display: flex;
+		align-items: center;
+	}
+	.year span:nth-of-type(1){
+		font-size: 5em;
+		font-weight: 700;
+	}
+	.year p{
+		font-size:1.2em;
+		padding-top:3vh;
+		padding-left: 2vh;
+	}
+}
 @media (min-width: 371px) and (max-width: 576px) and (orientation: portrait){
 	.solution{
 		font-size: 0.7em;
@@ -378,14 +434,14 @@ span.social_media{
 	}
 }
 
-@media (min-width: 576px) and (max-width: 767px) and (orientation: portrait){
+@media (min-width: 577px) and (max-width: 767px) and (orientation: portrait){
 	.solution{
 		font-size: 1.3em;
-		margin-top: 13vh;
+		margin-top: 5vh;
 		margin-bottom: 7px;
 	}
 	#cover h1{
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
 	div.name{
 		margin-bottom: 7px;
@@ -417,7 +473,7 @@ span.social_media{
 		display: flex;
 		align-items: center;
 		padding-left: 12vh;
-	}
+	}	
 	.year span:nth-of-type(1){
 		font-size: 5em;
 		font-weight: 700;
@@ -430,7 +486,7 @@ span.social_media{
 
 }
 
-@media (min-width: 576px) and (max-width: 767px) and (orientation: landscape){
+@media (min-width: 577px) and (max-width: 767px) and (orientation: landscape){
 	.solution{
 		font-size: 0.8em;
 		margin-top: 3px;
@@ -486,7 +542,7 @@ span.social_media{
 	
 	.solution{
 		font-size: 1.2em;
-		margin-top: 20vh;
+		margin-top: 15vh;
 		margin-bottom: 10px;
 	}
 	#cover h1{

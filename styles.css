@@ -213,6 +213,10 @@ div.contact{
 	background-color: #121212;
 	color: #ffffff;
 }
+.contact_info a{
+	text-decoration: none;
+	color: #ffffff;
+}
 /*Portfolio*/
 p.card-text{
 	color: black;

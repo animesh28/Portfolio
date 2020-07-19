@@ -231,6 +231,16 @@ p.card-text{
 	font-weight: 600;
 	margin-bottom: 3vh;
 }
+/*12th Board Exams*/
+.board_exams p{
+	font-family: 'Red Rose', cursive;
+}
+.board_exams i{
+	font-size: 1.5em;
+}
+.board_exams span{
+	font-size: 1.2em;
+}
 /*Footer*/
 footer{
 	background-color: #0b0b0b;
